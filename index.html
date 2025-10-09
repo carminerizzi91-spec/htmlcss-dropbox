@@ -10,78 +10,112 @@
 
 <body>
 
-    <!-- HEADER -->
-    <header class="header container">
-        <div class="box logo-box"></div>
-        <div class="box menu-box"></div>
+    <!-- HEADER a piena larghezza -->
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <img src="img/logo-small.png" alt="Logo Dropbox">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Perché Dropbox</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                    <li><a href="#">Piani e Prezzi</a></li>
+                </ul>
+            </nav>
+            <div class="nav-right">
+                <a href="#" class="support">Supporto</a>
+                <a href="#" class="sales">Contatta vendite</a>
+                <a href="#" class="login">Accedi</a>
+                <a href="#" class="btn">Inizia</a>
+            </div>
+        </div>
     </header>
 
-    <!-- HERO SECTION -->
-
-
-    <!-- SECTION -->
-    <main class="">
-        <!-- HERO SECTION -->
+    <!-- CONTENUTO CENTRATO -->
+    <main>
         <section class="hero">
-            <div class="hero-left">
-                <div class="box title-box"></div>
-                <div class="box text-box"></div>
-                <div class="box button-box"></div>
+            <div class="hero-content">
+                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                <p>Porta a termine le attività quotidiane con un solo strumento. Condividi file, coordina progetti e collabora con il tuo team in modo efficiente.</p>
+                <a href="#" class="btn primary">Prova gratis per 30 giorni</a>
             </div>
-            <div class="hero-right box image-box"></div>
+            <div class="hero-image">
+                <img src="img/jumbo.png" alt="Anteprima Dropbox Business">
+            </div>
         </section>
 
         <section class="plans">
-            <div class="box section-title-box"></div>
-            <div class="plans-grid">
-                <div class="box plan-box"></div>
-                <div class="box plan-box"></div>
-                <div class="box plan-box"></div>
+            <h2>Trova il piano business che fa per te</h2>
+            <div class="flex">
+                <div class="plan">
+                    <h3>Professional</h3>
+                    <p class="price">€12 / mese</p>
+                    <ul>
+                        <li>1 utente</li>
+                        <li>5 TB di spazio</li>
+                        <li>Funzioni base di condivisione</li>
+                    </ul>
+                    <a href="#" class="btn small">Prova gratis</a>
+                </div>
+                <div class="plan">
+                    <h3>Advanced</h3>
+                    <p class="price">€18 / mese</p>
+                    <ul>
+                        <li>3+ utenti</li>
+                        <li>Spazio illimitato</li>
+                        <li>Controllo avanzato dei file</li>
+                    </ul>
+                    <a href="#" class="btn small">Prova gratis</a>
+                </div>
+                <div class="plan">
+                    <h3>Enterprise</h3>
+                    <p class="price">Contattaci</p>
+                    <ul>
+                        <li>Soluzioni personalizzate</li>
+                        <li>Supporto dedicato</li>
+                        <li>Integrazioni su misura</li>
+                    </ul>
+                    <a href="#" class="btn small">Contatta vendite</a>
+                </div>
             </div>
         </section>
 
-        <section class="enterprise-cta">
-            <div class="box section-title-box"></div>
-            <div class="box text-box"></div>
-            <div class="box button-box"></div>
-        </section>
-
-        <section class="partner container">
-            <div class="box image-box"></div>
-            <div class="partner-right">
-                <div class="box title-box"></div>
-                <div class="box text-box"></div>
-                <div class="box button-box"></div>
+        <section class="partners">
+            <div class="partner-wrapper">
+                <div class="partner-image">
+                    <img src="img/partner.png" alt="Partner Dropbox">
+                </div>
+                <div class="partner-content">
+                    <h2>Entra in contatto con un partner Dropbox</h2>
+                    <p>Trova un partner Dropbox e ottieni assistenza personalizzata per la tua azienda.</p>
+                    <a href="#" class="btn small">Trova un partner</a>
+                </div>
             </div>
         </section>
 
-        <section class="operations">
-            <div class="box section-title-box"></div>
-            <div class="operations-grid">
-                <div class="box op-box"></div>
-                <div class="box op-box"></div>
-                <div class="box op-box"></div>
-                <div class="box op-box"></div>
+        <section class="features">
+            <h2>Esegui più operazioni con Dropbox Business</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <img src="{{FEATURE_IMAGE_1}}" alt="Funzione 1">
+                    <h4>Passa di meno da uno strumento all’altro</h4>
+                    <p>Gestisci file e attività in un’unica piattaforma.</p>
+                </div>
+                <div class="feature">
+                    <img src="{{FEATURE_IMAGE_2}}" alt="Funzione 2">
+                    <h4>Collabora in modo più efficiente</h4>
+                    <p>Condividi e modifica documenti in tempo reale.</p>
+                </div>
+                <div class="feature">
+                    <img src="{{FEATURE_IMAGE_3}}" alt="Funzione 3">
+                    <h4>Automatizza i processi</h4>
+                    <p>Risparmia tempo con flussi di lavoro intelligenti.</p>
+                </div>
             </div>
-        </section>
-
-        <section class="clients">
-            <div class="box section-title-box"></div>
-            <div class="box text-box"></div>
         </section>
     </main>
-    <!-- FOOTER -->
-    <footer class="footer ">
-        <div class="footer-grid">
-            <div class="box footer-col"></div>
-            <div class="box footer-col"></div>
-            <div class="box footer-col"></div>
-            <div class="box footer-col"></div>
-            <div class="box footer-col"></div>
-        </div>
-        <div class="box footer-bottom"></div>
-    </footer>
+
 
 </body>
-
 </html>
